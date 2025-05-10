@@ -12,7 +12,8 @@ To obtain Node.js, download the appropriate package from the website: https://no
 
 To obtain Python, download the appropriate package from the website: https://www.python.org/downloads/.
 
-To obtain Yeoman, run the following command (need to have Node.js to do this): npx --package yo --package generator-code -- yo code
+To obtain Yeoman, run the following command (need to have Node.js to do this): 
+`npx --package yo --package generator-code -- yo code`
 
 In order to get the python dependencies required, run the command: pip install -r requirements.txt
 
