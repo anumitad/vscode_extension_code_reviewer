@@ -1,14 +1,17 @@
 # import system library
 import sys
 from google import genai
+import os
+from dotenv import load_dotenv
 
 # take passed variable values 
 code = str(sys.argv[1])
 language = str(sys.argv[2])
 #print(code)
 
+load_dotenv()
 
-client = genai.Client(api_key="AIzaSyC8yBYewaad5VSzo7LjUFmzuB77Rol7eOg")
+client = genai.Client(api_key=os.getenv("GEMINI_TOKEN"))
 
 
 prompt = f'''<INSTRUCTIONS> \n 
@@ -23,11 +26,6 @@ The code is as follows: \n
 <CODE> \n
 {code}'''
 
-
-#print(prompt)
-
-
-#exit()
 
 response = client.models.generate_content(
     model="gemini-2.0-flash", contents=prompt
