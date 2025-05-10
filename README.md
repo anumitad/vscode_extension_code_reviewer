@@ -2,7 +2,7 @@
 
 This is a code reviewer. Upon opening a file, click on the clipboard icon in the toolbar to the left of the screen. Click on the "Review Code" button to get a review of your code. 
 
-The suggestions will be shown in the output tab of your terminal. 
+The suggestions will be shown in the output tab of your terminal. Incorporate these changes as required. 
 
 # README
 
