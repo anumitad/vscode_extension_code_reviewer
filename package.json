@@ -1,0 +1,51 @@
+{
+  "name": "cr",
+  "displayName": "cr",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.1"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [{
+      "command": "cr.review",
+      "title": "code_review"
+    }], 
+  "viewsContainers": {
+    "activitybar": [
+      {
+        "id": "mySidebar",
+        "title": "My Panel",
+        "icon": "review.svg"
+      }
+    ]
+  },
+  "views": {
+    "mySidebar": [
+      {
+        "type": "webview",
+        "id": "myView",
+        "name": "My View"
+      }
+    ]
+  }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.93.1",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "eslint": "^9.25.1",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
