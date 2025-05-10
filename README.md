@@ -1,12 +1,6 @@
-# cr README
+# README
 
-This is a code reviewer. 
+This is a code reviewer. Upon opening a file, click the clipboard icon in the toolbar to the left. In the menu, click purple button to get your code file reviewed. 
 
-## Features
-
-It suggests changes to your code, so that you have robust code. 
-
-## Requirements
-
-It runs using gemini, to run it ensure to have a gemini access key. 
+The suggestion changes will show up in the output tab of your terminal. Implement them as required. 
 
