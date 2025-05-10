@@ -21,4 +21,5 @@ In order to get the python dependencies required, run the command:
 ```pip install -r requirements.txt```
 
 In order to run this, you will need a Gemini API token. Create a .env file, and add the following line: 
-GEMINI_TOKEN = "your_unique_token_here"
+
+```GEMINI_TOKEN = "your_unique_token_here"```
