@@ -4,7 +4,7 @@ This is a code reviewer. Upon opening a file, click on the clipboard icon in the
 
 The suggestions will be shown in the output tab of your terminal. Incorporate these changes as required. 
 
-# README
+# REQUIREMENTS
 
 This VScode extension is built using Node.js, Yeoman, and Python. 
 
